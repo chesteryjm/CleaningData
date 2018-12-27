@@ -1,12 +1,26 @@
-This README has two parts.
+This README has three parts.
 
-1- Presentation of the data
-2- Presentation of the analysis code to tidy and select some of the data into large R dataset.
+1- How to run the code
+2- Presentation of the data
+3- Presentation of the analysis code to tidy and select some of the data into large R dataset.
+
+
+#################################
+Part 1 :  How to run the code
+#################################
+
+Assuming the data provided for the exercice is in your working directory
+
+type: source('run_analysis.R')
+
+Assuming you want the tidy dataset to be named result, type
+
+result<-run_analysis()
 
 
 
 #################################
-Part 1 : Presentation of the data
+Part 2 : Presentation of the data
 #################################
 
 
@@ -30,7 +44,7 @@ The sensor signals (accelerometer and gyroscope) were pre-processed by applying 
 
 
 #####################################
-Part 2 : Presentation of the analysis 
+Part 3 : Presentation of the analysis 
 	 code to tidy and select some 
 	 of the data into large R 
 	 dataset.
